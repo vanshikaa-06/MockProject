@@ -14,7 +14,8 @@ export function Education(){
     }
    function handleChangeYear(e)
     {
-        setUser({...user,year:e.target.value})
+        setUser({...user,year:e.target.value});
+        console.log('hello');
     }
 
     function handleChangeLocation(e){
