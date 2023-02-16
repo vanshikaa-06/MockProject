@@ -16,6 +16,7 @@ export function AboutUs(){
     function handleChangeProfessionSummary(e)
     {
         setAbout({...about,professionalSummary:e.target.value});
+	console.log('hello')
     }
 
    function handleSubmit(e)
