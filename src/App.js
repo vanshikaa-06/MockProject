@@ -1,46 +1,58 @@
 import logo from './logo.svg';
-import './App.css';
+import style from './App.module.css';
 import Records from './records.json'
 
 function App() {
   return (
-    <div className='App'>
+    <div className={style.App}>
       {
         Records && Records.map(record=>{
           return(
             <div className='box'>
               <h3>About Me</h3>
-              <img src={record.profile_picture}></img><br/>
-              <strong>Name: {record.title}</strong><br/>
-              Location: {record.location}<br/>
-              Professional Summary: {record.professional_summary}<br/>
+              <img src={record.aboutme.image} alt="profile"></img><br/>
+              <strong>Name: {record.aboutme.name}</strong><br/>
+              Location: {record.aboutme.location.city} , {record.aboutme.location.state}<br/>
+              Professional Summary: {record.aboutme.summary}<br/>
               <h3>Skills</h3>
-              {record.skills_list && record.skills_list.map(data =>{
+              {record.skills && record.skills.map(data =>{
                 return(
                   <div>
-                    CSS: {data.css} <br/>
-                    HTML: {data.html} <br/>
-                    JS: {data.js} <br/>
+                    <p>{data.name}</p>
+                    <li>{data.level}</li>
                   </div>
                 )
               })}
-              {record.projects_list && record.projects_list.map(data =>{
+              <h3>Projects</h3>
+              {record.projects && record.projects.map(data =>{
                           return(
                                   <div>
-                                    Project Name: {data.project_name} <br/>
-                                    Role: {data.role} <br/>
-                                    Tech Stack: {data.tech_stack.map(data => (<li>{data}</li>))} <br/>
+                                    Project Name: {data.name} <br/>
+                                    Role: {data.description} <br/>
+                                    Tech Stack: {data.techStack.map(data => (<li>{data}</li>))} <br/>
                                   </div>
                           )
               }
               )}
-              Course Name: {record.course_name}<br/>
-              College: {record.college}<br/>
-              Year: {record.college}<br/>
-              College Location: {record.college_location}<br/>
-              LinkedIn Profile: {record.linkedin_profile}<br/>
-              DPN Profile: {record.location}<br/>
-              Location: {record.location}<br/>
+
+              <h3>Education</h3>
+              {record.education && record.education.map(data =>{
+                          return(
+                                  <div>
+                                    Course Name: {data.courseName} <br/>
+                                    College Name: {data.college} <br/>
+                                    Year : {data.year}<br/>
+                                    Location : {data.location.city}, {data.location.state}<br/>
+                                  </div>
+                          )
+              }
+              )}
+
+              <h3>Contact</h3>
+              email: {record.contact.email}<br/>
+              phone: {record.contact.phone}<br/>
+              linkedin: {record.contact.linkedin}<br/>
+
             </div>
           )
         })
