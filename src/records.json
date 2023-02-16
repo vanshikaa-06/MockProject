@@ -1,0 +1,39 @@
+[
+    {   "id":1,
+        "profile_picture":"logo512.png",
+        "title":"Surbhi",
+        "location":"Hyderabad",
+        "professional_summary":"lorem",
+        "skills_list": [
+            {
+                "css":5,
+                "html":5,
+                "js":4
+            }
+        ],
+        "projects_list":[
+            {
+                "project_name":"lorem",
+                "role":"lorem",
+                "tech_stack": ["css","html","js"]
+            },
+            {
+                "project_name":"lorem",
+                "role":"lorem",
+                "tech_stack": ["css","html","js"]
+            },
+            {
+                "project_name":"lorem",
+                "role":"lorem",
+                "tech_stack": ["css","html","js"]
+            }
+        ],
+        "course_name":"lorem",
+        "college":"lorem",
+        "year": 2005,
+        "college_location":"lorem",
+        "linkedin_profile":"lorem",
+        "dpn_profile":"lorem",
+        "deloitte_mail": 2005
+    }
+]
