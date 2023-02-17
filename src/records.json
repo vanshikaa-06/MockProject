@@ -7,37 +7,37 @@
         "city": "New Delhi",
         "state" : "Delhi"
       },
-      "summary": "A summary of John Doe…"
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "skills": [
       {
-        "name": "Skill 1",
-        "level": "Master"
+        "name": "HTML",
+        "level": 4
       },
       {
-        "name": "Skill 2",
-        "level": "Beginner"
+        "name": "CSS",
+        "level": 4
       },
       {
-        "name": "Skill 3",
-        "level": "Intermediate"
+        "name": "JavaScript",
+        "level": 5
       },
       {
-        "name": "Skill 4",
-        "level": "Intermediate"
+        "name": "JQuery",
+        "level": 3
       },
       {
-        "name": "Skill 5",
-        "level": "Intermediate"
+        "name": "Angular",
+        "level": 2
       },
       {
-        "name": "Skill 6",
-        "level": "Intermediate"
+        "name": "ReactJS",
+        "level": 1
       }
     ],
     "education": [
       {
-        "courseName": "BCA",
+        "courseName": "MCA",
         "college": "University",
         "year": "2022",
         "location": {
@@ -48,16 +48,16 @@
       {
         "courseName": "BCA",
         "college": "University",
-        "year": "2022",
+        "year": "2019",
         "location": {
           "city": "New Delhi",
           "state" : "Delhi"
         }
       },
       {
-        "courseName": "BCA",
-        "college": "University",
-        "year": "2022",
+        "courseName": "12th",
+        "college": "CBSE",
+        "year": "2016",
         "location": {
           "city": "New Delhi",
           "state" : "Delhi"
@@ -66,30 +66,30 @@
     ],
     "projects": [
       {
-        "name": "Project 1",
+        "name": "Profile Builder",
         "description": "Description…",
         "techStack": [
-          "css",
-          "html",
-          "js"
+          "CSS",
+          "HTML",
+          "JavaScript"
         ]
       },
       {
-        "name": "Project 2",
+        "name": "To-Do List",
         "description": "Description…",
         "techStack": [
-          "css",
-          "html",
-          "js"
+          "CSS",
+          "HTML",
+          "JavaScript"
         ]
       },
       {
-        "name": "Project 3",
+        "name": "Ecommerce",
         "description": "Description…",
         "techStack": [
-          "css",
-          "html",
-          "js"
+          "CSS",
+          "HTML",
+          "JavaScript"
         ]
       }
     ],

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.scss';
 import Records from './records.json'
 import React from 'react';
+import ExampleDoc from './downloads/Resume.pdf'
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 </style>
@@ -17,6 +18,7 @@ function App() {
         Records && Records.map(record=>{
           return(
             <React.Fragment>  
+              <div className='profile-detail'>
             <div className='profile-pic'>
             <img src={record.aboutme.image} height={150} width={150} alt="profile"></img><br/>
               </div>   
@@ -29,6 +31,7 @@ function App() {
                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                 </svg>      
                   {record.aboutme.location.city}, {record.aboutme.location.state}<br/>
+             </div>
              </div>
             </React.Fragment>
           )
@@ -123,13 +126,6 @@ function App() {
                             )
                 }
                 )}
-                {/* <div class="desc-container">
-                              <h4>2017 - Present</h4>
-                              <p>UX Developer</p>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus autem soluta, 
-                              repellat minus quam ad pariatur eaque. Neque provident impedit aut eveniet 
-                              </p>
-                          </div> */}
                           </div>
               </React.Fragment>
             )
@@ -149,7 +145,7 @@ function App() {
                                       <div className='small-container'>
                                         <h4>{data.name}</h4>
                                         <p>{data.description}</p>
-                                        <p>{data.techStack.map(data => (<span>{data},</span>))}</p>
+                                        <p>{data.techStack.map(data => (<span>{data}, </span>))}</p>
                                       </div>
 
                             )
@@ -166,8 +162,8 @@ function App() {
 
     </div>
   
-
-
+  <a href={ExampleDoc} download="MyExampleDoc" target='_blank'>
+    <button className='btn1'>My Example Doc</button></a>
     </React.Fragment>
   );
 }

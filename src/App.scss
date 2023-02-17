@@ -17,14 +17,17 @@ body {
 .grid-container{
   display:grid;
   grid-template-columns: 30% 70%;
+  box-shadow: 0px 0px 10px gray;
 }
 
 .containerfirst{
-  border: 1px solid black;
+  // border: 1px solid black;
+  box-shadow: 1px 0px 5px lightgray;
+
 }
 
 .containersec{
-  border: 1px solid black;
+  // border: 1px solid black;
   padding: 15px;
 }
 
@@ -83,12 +86,13 @@ li {
 }
 
 .contact-info {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 15px;
   border-bottom: 1px solid #607D8B;
   padding-bottom: 20px;
+  color: darkblue;
 }
 
 .contact-info span {
@@ -96,16 +100,30 @@ li {
   margin-bottom: 10px;
 }
 
+.contact-info span svg{
+  color: rgb(255, 123, 0);
+}
+
 .aboutus-container{
     padding: 20px;
     background-color: darkblue;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 26px;
     margin:0px 10px;
-    color:rgb(255, 123, 0)
+    color:rgb(255, 123, 0);
 }
-.profile-pic{
 
+.profile-detail::after{
+  content: ""; 
+  width: 0;
+  height: 0;
+  border-right: 7rem solid transparent;
+  border-left: 7rem solid transparent;
+  border-top: 2rem solid darkblue;
+  position: absolute;
+}
+
+.profile-pic{
     box-shadow: 0px 0px 5px white;
     border: 1px solid white;
     border-radius: 60%;
@@ -182,7 +200,7 @@ li {
     font-family: 'Roboto', sans-serif;
     border-left:5px solid rgb(255, 123, 0); 
     flex-basis: 175px;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 10px 0px 0px;
     box-shadow: 2px 2px 2px lightgray;
   }
   .desc-container h4{
@@ -211,5 +229,15 @@ li {
       width: 18px;
       padding-top: 1px;
       border-bottom: 2px solid rgb(255, 123, 0);
-  
+  }
+
+  .btn1{
+    background-color: darkblue;
+    border: 1px solid transparent;
+    width: 200px;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px gray;
   }
