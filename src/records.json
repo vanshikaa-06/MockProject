@@ -1,6 +1,6 @@
 [{
     "aboutme": {
-      "image": "",
+      "image": "profile.jpg",
       "name": "John Doe",
       "label": "Programmer",
       "location": {
@@ -36,6 +36,24 @@
       }
     ],
     "education": [
+      {
+        "courseName": "BCA",
+        "college": "University",
+        "year": "2022",
+        "location": {
+          "city": "New Delhi",
+          "state" : "Delhi"
+        }
+      },
+      {
+        "courseName": "BCA",
+        "college": "University",
+        "year": "2022",
+        "location": {
+          "city": "New Delhi",
+          "state" : "Delhi"
+        }
+      },
       {
         "courseName": "BCA",
         "college": "University",

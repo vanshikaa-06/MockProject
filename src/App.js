@@ -18,7 +18,7 @@ function App() {
           return(
             <React.Fragment>  
             <div className='profile-pic'>
-            <img src={record.aboutme.image} alt="profile"></img><br/>
+            <img src={record.aboutme.image} height={150} width={150} alt="profile"></img><br/>
               </div>   
               <div className='title-name'>
               <strong>{record.aboutme.name}</strong><br/>
