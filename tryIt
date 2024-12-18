@@ -1,0 +1,29 @@
+TA: Served as a frontend UI developer, delivering 30 UI/UX user stories of 130 SP. Restructured screens, reducing regression defects by 50%. Shifted from zoom percentage to resolution breakpoint testing improving UI testing. Developed a POC for accessibility, promoting inclusivity. Ensured consistent UI across the project. Mentored 3 developers and was the go-to person for UI queries.
+
+
+
+J&J: Delivered 12 SP per sprint with minimal defects as a frontend developer. Restructured 75% of the portal along with mobile-first using LWC classes. Enhanced visuals and navigation with illustrations and tutorials. Implemented lazy loading, reducing server load and portal load speed from 3s to 1.5s. Refactored components from many to one apex call increasing portal efficiency by 20%. Cleaned LWC and used custom labels to meet coding standards. Prepared weekly leadership reports. Mentored 2 developers in UI/UX and helping others in UI related stories. Upskilling as a Salesforce Admin.
+
+
+
+
+
+1. Customised Lightening Datatable for expense summery and also depending on some condition we are rendering images in customised data table.
+2. Individually did Integrations.(after sharing the controller method, I have done integration between LWC and Apex)
+3. To take user experience survey response created 100% dynamic component/function oriented.(For this Introduced a new design pattern, including some algorithms which creates flow screens based on data available and also retains the value in between screens which is faster and with less-code)
+4. I am improvising the code.(Addition of validation rules like Null pointers, expection handling so that we are not getting any future blockers in portal)
+5. Worked on major functionality on reimbursement landing page. Prioritised reimbursement reports which were firstly grouped by sub-status then by given order and then sorted them by created date and finally categorised them based on status. Providing user at a glance view about reports for which action is needed.
+7. Worked on Tutorials linking part on feature announcement, OCR screen in between dynamic screens, navigation tutorials based on user logging the portal for first time. This helped in enhancing user experience to better understand the portal.
+8. Got very less bugs during testing.
+-30 story points.
+-Implemented lazy loading in expense tables both mobile & desktop view;
+-dynamic screen flow to show experience survey questions with conditional 
+-rendering on different pages as per requirement.
+-Apex and UI integrations
+-took ownership of survey.
+-guiding junior team members.
+-worked on UI FIT bugs
+-refactored UI for major functionalities, add expense, submit expense
+-learnt project functionalities in less time
+-as compared to previous year I got very very less bugs
+-as I am the one POC in UI so helping teammate with UI related task
